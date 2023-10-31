@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+.form-container{
+width: 300px;
+margin:auto;
+padding: 20px;
+background-color: #f2f2f2;
+border-radius: 5px;
+}
+.form-container input[type=text],
+.form-container input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+.form-container button[type=submit] {
+background-color: #4caf50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%
+}
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    padding: 10px 10px 10px 10px;
+    text-align:center;
+    background-color:#f2f2f2;
+}
+nav a{
+text-decoration:none;
+z-index:1;
+color:black;
+font-size:20px;
+font-weight:bolder;
+}
+nav img{
+    border: none;
+    border-radius: 10000px;
+    width: 100px;
+}
+body{
+font-family:"finger paint", cursive;
+}
+</style>
+<title>Sign up | SBI</title>
+</head>
+<body>
+<nav>
+<img src="logo.jpg">
+<a href="sharp.html">Home|  </a>
+<a href="about.html">About|   </a>
+<a href="webify.html">Services|   </a>
+<a href="bklib.html">Book Library|  </a>
+</nav><br><br><br><br><br><br>
+<div class="form-container">
+<h2>Sign Up</h2>
+<form action="formaction.html">
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" placeholder="Enter Your username" required>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" placeholder="Enter Your password" required>
+<button type="submit">Sign up</button>
+</form>
+</div> 
+</body>
+</html>
